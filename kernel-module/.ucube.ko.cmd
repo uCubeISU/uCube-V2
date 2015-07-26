@@ -1,0 +1,1 @@
+cmd_/home/vens/Projects/uCube/uCube-V2/kernel-module/ucube.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/vens/Projects/uCube/uCube-V2/kernel-module/ucube.ko /home/vens/Projects/uCube/uCube-V2/kernel-module/ucube.o /home/vens/Projects/uCube/uCube-V2/kernel-module/ucube.mod.o
